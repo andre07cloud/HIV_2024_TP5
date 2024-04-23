@@ -75,8 +75,7 @@ if __name__ == "__main__":
     # Create a generative model
     model = genai.GenerativeModel('gemini-pro')
 
-    #function_to_test = number_to_words #file_name_check
-    function_to_test = strong_password_checker
+    function_to_test = number_to_words
 
     score_saved = []
     for _ in range(5):
